@@ -1,0 +1,16 @@
+<div class="mwk-page">
+  <div class="mwk-page-header">
+    <div class="mwk-page-breadcrumb">
+      <ng-content select="[breadcrumb]"></ng-content>
+    </div>
+    <div class="mwk-page-title">
+      {{pageTitle}}
+    </div>
+  </div>
+  <div class="mwk-page-content">
+    <ng-content></ng-content>
+  </div>
+  <div class="mwk-page-footer">
+    <ng-content select="[footer]"></ng-content>
+  </div>
+</div>

@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+:root {
+  // Global
+  --mwk-border-radius: 15px;
+  --mwk-global-spacing: 16px;
+  --mwk-global-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+
+  // Font
+  --mwk-title-font-size: 25px;
+  --mwk-font-color-light: #727272;
+
+  // Table
+  --mwk-table-hover: aliceblue;
+  --mwk-table-focus: #deebff;
+
+  // Page
+  --mwk-page-background: #e7e7e7;
+  --mwk-footer-bg: #fff;
+  --mwk-page-sticky-height: 60px;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
